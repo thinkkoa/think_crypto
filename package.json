@@ -1,0 +1,29 @@
+{
+  "name": "think_crypto",
+  "version": "1.0.0",
+  "description": "AES、DES、3DES、RSA ...",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run eslint",
+    "prepublish": "npm test",
+    "eslint": "eslint index.js"
+  },
+  "engines": {
+    "node": ">8.0.0"
+  },
+  "author": "richenlin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thinkkoa/think_crypto/issues"
+  },
+  "homepage": "https://github.com/thinkkoa/think_crypto",
+  "devDependencies": {
+    "eslint": "^6.8.0"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "node-rsa": "^1.0.8",
+    "think_lib": "^2.x.x",
+    "think_logger": "^2.x.x"
+  }
+}
